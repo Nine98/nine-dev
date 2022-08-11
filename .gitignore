@@ -1,0 +1,9 @@
+# Project exclude paths
+/nine-dev-api/target/
+/nine-dev-common/target/
+/nine-dev-dao/target/
+/nine-dev-domain/target/
+/nine-dev-external/target/
+/nine-dev-service/target/
+/nine-dev-web/target/
+/nine-learning/target/

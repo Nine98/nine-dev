@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.netease.mapper.MusicMapper" >
+  <resultMap id="BaseResultMap" type="com.netease.pojo.Music" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="mid" property="mid" jdbcType="VARCHAR" />
+    <result column="mname" property="mname" jdbcType="VARCHAR" />
+    <result column="sname" property="sname" jdbcType="VARCHAR" />
+    <result column="image" property="image" jdbcType="VARCHAR" />
+    <result column="audio" property="audio" jdbcType="VARCHAR" />
+    <result column="start" property="start" jdbcType="INTEGER" />
+    <result column="end" property="end" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>
